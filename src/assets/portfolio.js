@@ -2,7 +2,7 @@ import img1 from './images/password.png';
 import img2 from './images/planner.gif';
 import img3 from './images/repostit.jpg';
 import img4 from './images/spotify.png';
-import img5 from './images/team-profile.png';
+import img5 from './images/budget.jpg';
 import img6 from './images/weather.png';
 
 const projects = [
@@ -35,10 +35,11 @@ const projects = [
         liveLink: 'https://mhabbo01.github.io/spotify-group-project/'
     },
     {
-        name: 'Team Profile Generator',
+        name: 'Budget Tracker',
         src: img5,
-        alt: 'Node app that generates a team profile',
-        github: 'https://github.com/mhabbo01/team-profile-generator'
+        alt: 'App that helps user track budget',
+        github: 'https://github.com/mhabbo01/budget-tracker',
+        liveLink: 'https://budget-tracker-v-1.herokuapp.com/'
     },
     {
         name: 'Weather Dashboard',
