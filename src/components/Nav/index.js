@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/Container';
 // Returns the site's navbar for use across components
 function Navigation() {
   return (
-    <Navbar expand="lg" variant="light" fixed="top">
+    <Navbar expand="lg" variant="light" fixed="top" position='sticky'>
       <Container fluid>
         <Navbar.Brand className='text-light'>Matt Habbo</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
